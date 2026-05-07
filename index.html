@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda Cheia Personal — Instagram que vira agenda cheia de alunos</title>
+  <meta name="description" content="App de conteúdo para personal trainers. Pare de travar no Instagram, poste com estratégia e atraia alunos toda semana.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+  <link rel="dns-prefetch" href="https://www.clarity.ms">
+  <!-- Google Fonts não bloqueante -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap"></noscript>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Preload da imagem do hero (LCP) -->
+  <link rel="preload" as="image" href="hero-mockup.webp" fetchpriority="high">
+
+  <!-- Microsoft Clarity (carrega depois do load) -->
+  <script type="text/javascript">
+    window.addEventListener('load', function(){
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "w9r99s148l");
+    });
+  </script>
+
+  <!-- Meta Pixel (carrega depois do load) -->
+  <script>
+    window.addEventListener('load', function(){
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+      (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '27491440937128564');
+      fbq('track', 'PageView');
+    });
+  </script>
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Agenda Cheia Personal — Instagram que vira agenda cheia de alunos">
+  <meta name="twitter:title" content="Agenda Cheia Personal — Instagram que vira agenda cheia de alunos">
+  <meta property="og:description" content="App de conteúdo para personal trainers. Pare de travar no Instagram, poste com estratégia e atraia alunos toda semana.">
+  <meta name="twitter:description" content="App de conteúdo para personal trainers. Pare de travar no Instagram, poste com estratégia e atraia alunos toda semana.">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=27491440937128564&ev=PageView&noscript=1"/></noscript>
+
+  <!-- Urgency bar -->
+  <div class="urgency-bar">🔥 Oferta válida por tempo limitado</div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="badge">App de Conteúdo para Personal Trainers</div>
+      <h1>O Instagram pode virar sua <span class="highlight">agenda cheia</span> de alunos toda semana</h1>
+      <p class="hero-sub">Enquanto muitos personal trainers travam sem saber o que postar, quem usa o conteúdo certo aparece mais, gera conversas no direct e vende acompanhamento com mais confiança.</p>
+
+      <div class="hero-mockup">
+        <img src="hero-mockup.webp" alt="App Agenda Cheia Personal no celular" width="768" height="1024" fetchpriority="high" decoding="async">
+        <div class="play-overlay">
+          <button class="play-btn" aria-label="Assistir vídeo"></button>
+          <div class="play-label">ASSISTA E ENTENDA</div>
+        </div>
+      </div>
+
+      <!-- Hero offer card -->
+      <div class="offer-card">
+        <div style="display:flex;justify-content:center;margin-bottom:16px;">
+          <div class="flame-tag">OFERTA LIMITADA</div>
+        </div>
+        <div class="text-center" style="margin-bottom:20px;">
+          <div class="line-through">De R$ 97,00</div>
+          <h3 style="font-size:24px;margin:8px 0 4px;">Escolha a versão ideal para você</h3>
+          <p class="muted-text" style="font-size:14px;">Start por <strong style="color:var(--orange);">R$ 10</strong> ou Premium por <strong style="color:var(--orange);">R$ 27</strong></p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <a href="#planos" data-cta="scroll" class="cta cta-success">Quero o Premium — R$27</a>
+          <a href="#planos" data-cta="scroll" class="cta cta-outline">Começar com Start — R$10</a>
+        </div>
+        <div class="trust-row">
+          <span>🔒 Seguro</span>
+          <span>⚡ Imediato</span>
+          <span>🛡️ Garantia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVALIAÇÕES -->
+  <section class="section muted">
+    <div class="section-inner">
+      <div class="section-title"><h2>Avaliações</h2></div>
+      <div class="rating-row">
+        <div class="text-center">
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="rating-num">4.9/5</div>
+          <div class="rating-label">+800 avaliações</div>
+        </div>
+        <div class="rating-pill">
+          <div class="num">98%</div>
+          <div class="rating-label">Satisfação</div>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="review-card">
+          <div class="review-head">
+            <img src="w1.jpg" alt="Mariana Lopes" loading="lazy" decoding="async" width="56" height="56">
+            <div>
+              <div class="review-name">Mariana Lopes</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="review-text">"Eu travava todo dia sem saber o que postar. Agora abro o app, escolho uma ideia e já tenho gancho, legenda e CTA."</p>
+        </div>
+        <div class="review-card">
+          <div class="review-head">
+            <img src="m1.jpg" alt="Rafael Martins" loading="lazy" decoding="async" width="56" height="56">
+            <div>
+              <div class="review-name">Rafael Martins</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="review-text">"Antes meu Instagram parecia só um mural de exercícios. Agora comecei a postar conteúdo com mais intenção e recebo mais mensagens no direct."</p>
+        </div>
+        <div class="review-card">
+          <div class="review-head">
+            <img src="w2.jpg" alt="Camila Rocha" loading="lazy" decoding="async" width="56" height="56">
+            <div>
+              <div class="review-name">Camila Rocha</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="review-text">"Em poucos minutos eu já tenho conteúdo para a semana. O calendário de 30 dias me ajudou muito."</p>
+        </div>
+        <div class="review-card">
+          <div class="review-head">
+            <img src="m2.jpg" alt="Bruno Almeida" loading="lazy" decoding="async" width="56" height="56">
+            <div>
+              <div class="review-name">Bruno Almeida</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="review-text">"O Premium valeu muito. Usei Reels, CTAs e provas sociais para falar melhor do meu acompanhamento."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEGREDO REVELADO -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-title">
+        <h2>Segredo Revelado</h2>
+        <p>O que os personals que mais atraem alunos fazem diferente no Instagram</p>
+      </div>
+      <p class="text-center muted-text mb-md" style="max-width:420px;margin-left:auto;margin-right:auto;">
+        Eles não postam qualquer coisa. Eles seguem uma estrutura: gancho forte, conteúdo simples, legenda pronta, CTA para direct e constância.
+      </p>
+      <img src="secret-reels.webp" alt="Reels de personal trainers que viralizam" style="border-radius:16px;margin-bottom:32px;box-shadow:var(--shadow-card);width:100%;height:auto;" loading="lazy">
+      <div class="grid-2">
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h4>Conteúdo Estratégico</h4>
+          <p>Ideias pensadas para atrair, engajar e transformar seguidores em conversas.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h4>Só Precisa do Celular</h4>
+          <p>Abra o app, copie o conteúdo, grave do seu jeito e publique.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h4>Sem Travar no Conteúdo</h4>
+          <p>Você não precisa pensar do zero. O app já entrega o caminho pronto.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h4>Post em Poucos Minutos</h4>
+          <p>Gancho, legenda, CTA e roteiro prontos para acelerar sua produção.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section class="section dark" id="planos">
+    <div class="section-inner">
+      <div class="section-title">
+        <h2>Escolha seu acesso</h2>
+        <p>Comece simples ou desbloqueie o app completo para postar com mais constância e estratégia.</p>
+      </div>
+
+      <!-- Premium -->
+      <div class="plan-premium">
+        <div class="plan-tag">⭐ Mais Completo</div>
+        <h3>Agenda Cheia — Premium</h3>
+        <div class="text-center line-through" style="margin-bottom:4px;">R$ 97,00</div>
+        <div class="plan-price">
+          <span class="big">R$ 27</span><span class="small">,00</span>
+        </div>
+        <p class="plan-desc">Para quem quer o app completo com conteúdo, calendário e bônus.</p>
+        <ul class="plan-list">
+          <li><span class="check">✓</span><span>50 Reels com gancho, roteiro, legenda e CTA</span></li>
+          <li><span class="check">✓</span><span>+20 legendas prontas extras</span></li>
+          <li><span class="check">✓</span><span>+20 sequências de stories</span></li>
+          <li><span class="check">✓</span><span>+20 CTAs extras para Direct</span></li>
+          <li><span class="check">✓</span><span>10 bios para Instagram</span></li>
+          <li><span class="check">✓</span><span>Calendário de 30 dias</span></li>
+          <li><span class="check">✓</span><span>Provas sociais prontas</span></li>
+          <li><span class="check">✓</span><span>Dinâmicas de treino</span></li>
+          <li><span class="check">✓</span><span>App instalável no celular</span></li>
+          <li><span class="check">✓</span><span>Acesso imediato</span></li>
+        </ul>
+        <a href="#" data-cta="premium-checkout" class="cta cta-success">QUERO O APP COMPLETO — R$27</a>
+      </div>
+
+      <!-- Start -->
+      <div class="plan-start">
+        <h3>Agenda Cheia — Start</h3>
+        <div class="plan-price">
+          <span class="big">R$ 10</span><span class="small">,00</span>
+        </div>
+        <p class="plan-desc">Para quem quer testar o app e ter as primeiras ideias prontas.</p>
+        <ul class="plan-list">
+          <li><span class="check">✓</span><span>10 ideias de Reels</span></li>
+          <li><span class="check">✓</span><span>Gancho pronto</span></li>
+          <li><span class="check">✓</span><span>Como gravar</span></li>
+          <li><span class="check">✓</span><span>Legenda pronta</span></li>
+          <li><span class="check">✓</span><span>CTA para direct</span></li>
+          <li class="locked"><span class="lock">🔒</span><span>Legendas Prontas</span></li>
+          <li class="locked"><span class="lock">🔒</span><span>Stories Prontos</span></li>
+          <li class="locked"><span class="lock">🔒</span><span>CTAs para Direct extras</span></li>
+          <li class="locked"><span class="lock">🔒</span><span>Bios para Instagram</span></li>
+          <li class="locked"><span class="lock">🔒</span><span>Calendário 30 Dias</span></li>
+          <li class="locked"><span class="lock">🔒</span><span>Bônus exclusivos</span></li>
+        </ul>
+        <a href="#" data-cta="start-checkout" class="cta cta-outline on-dark">Começar com Start — R$10</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BÔNUS -->
+  <section class="section muted">
+    <div class="section-inner">
+      <div class="bonus-card">
+        <h2>🎁 Bônus Inclusos no Premium</h2>
+        <img src="bonus.webp" alt="Bônus inclusos" loading="lazy">
+        <div class="bonus-grid">
+          <div class="bonus-item">
+            <div class="icon">📅</div>
+            <h4>Calendário de 30 Dias</h4>
+            <p>Plano pronto mostrando o que postar em cada dia.</p>
+          </div>
+          <div class="bonus-item">
+            <div class="icon">🏆</div>
+            <h4>Provas Sociais Prontas</h4>
+            <p>Ideias para mostrar resultados, bastidores e evolução sem depender só de antes e depois.</p>
+          </div>
+          <div class="bonus-item">
+            <div class="icon">🏋️</div>
+            <h4>Dinâmicas de Treino</h4>
+            <p>Dinâmicas para o personal usar nas aulas e deixar os treinos mais variados.</p>
+          </div>
+          <div class="bonus-item">
+            <div class="icon">💬</div>
+            <h4>CTAs para Direct</h4>
+            <p>Chamadas prontas para transformar seguidores em conversas no privado.</p>
+          </div>
+        </div>
+        <div class="bonus-price-line">
+          <span class="label">Hoje no Premium por apenas</span>
+          <span class="val">R$ 27,00</span>
+        </div>
+        <a href="#" data-cta="premium-checkout" class="cta cta-success">Desbloquear Premium Agora</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-title">
+        <h2>Como Funciona?</h2>
+        <p>4 passos simples para transformar seu Instagram em uma fonte de alunos</p>
+      </div>
+      <div class="grid-2">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h4>Acesse o App</h4>
+          <p>Receba o acesso logo após a compra e abra pelo celular.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h4>Escolha um Conteúdo</h4>
+          <p>Entre nos menus de Reels, stories, legendas, CTAs ou calendário.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h4>Copie e Grave</h4>
+          <p>Use o gancho, o roteiro, a legenda e o CTA prontos. Adapte para o seu jeito.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">4</div>
+          <h4>Publique e Chame no Direct</h4>
+          <p>Poste com mais constância e leve seguidores para conversar com você.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPORTUNIDADE FINAL -->
+  <section class="section dark">
+    <div class="section-inner">
+      <div class="final-head">
+        <div class="badge-red">🔥 OFERTA ESPECIAL — 89% OFF</div>
+        <h2>Oportunidade Única</h2>
+        <p class="subtitle">Oferta por tempo limitado</p>
+      </div>
+
+      <div class="plan-premium" style="margin-bottom:24px;">
+        <h3>Agenda Cheia Personal — Premium</h3>
+        <div class="text-center line-through" style="margin-bottom:4px;">R$ 97,00</div>
+        <div class="plan-price">
+          <span class="big">R$ 27</span><span class="small">,00</span>
+        </div>
+        <p class="economize">Economize R$ 70,00</p>
+        <ul class="plan-list">
+          <li><span class="check">✓</span><span>50 Reels com gancho, roteiro, legenda e CTA</span></li>
+          <li><span class="check">✓</span><span>+20 legendas prontas extras</span></li>
+          <li><span class="check">✓</span><span>+20 sequências de stories</span></li>
+          <li><span class="check">✓</span><span>+20 CTAs extras para Direct</span></li>
+          <li><span class="check">✓</span><span>10 bios para Instagram</span></li>
+          <li><span class="check">✓</span><span>Calendário de 30 dias</span></li>
+          <li><span class="check">✓</span><span>Provas sociais prontas</span></li>
+          <li><span class="check">✓</span><span>Dinâmicas de treino</span></li>
+          <li><span class="check">✓</span><span>App instalável no celular</span></li>
+          <li><span class="check">✓</span><span>Acesso imediato</span></li>
+        </ul>
+        <a href="#" data-cta="premium-checkout" class="cta cta-success">Comprar Premium Agora</a>
+        <div class="trust-row">
+          <span>🔒 Seguro</span>
+          <span>⚡ Imediato</span>
+          <span>🛡️ 7 dias de garantia</span>
+        </div>
+      </div>
+
+      <p class="want-test">Quer testar primeiro?</p>
+      <div class="start-mini">
+        <h4>Agenda Cheia — Start</h4>
+        <div class="price">R$ 10,00</div>
+        <p class="desc">Inclui 10 ideias de Reels completas.</p>
+        <a href="#" data-cta="start-checkout" class="cta cta-outline" style="border-color:rgba(255,85,0,.6);color:var(--orange);">Começar com Start — R$10</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HISTÓRIAS -->
+  <section class="section muted">
+    <div class="section-inner">
+      <div class="section-title">
+        <h2>Histórias de Sucesso</h2>
+        <p>Personais que saíram do "não sei o que postar" para uma rotina de conteúdo mais profissional</p>
+      </div>
+      <div class="grid-2 mb-md">
+        <div class="story-card">
+          <div class="review-head">
+            <img src="w3.jpg" alt="Fernanda Alves" loading="lazy" decoding="async" width="56" height="56">
+            <div>
+              <div class="review-name">Fernanda Alves</div>
+              <div class="highlight">+ mensagens no direct</div>
+            </div>
+          </div>
+          <p class="review-text">"Eu postava quando dava. Agora tenho um calendário e ideias prontas para manter presença toda semana."</p>
+        </div>
+        <div class="story-card">
+          <div class="review-head">
+            <img src="m3.jpg" alt="Lucas Pereira" loading="lazy" decoding="async" width="56" height="56">
+            <div>
+              <div class="review-name">Lucas Pereira</div>
+              <div class="highlight">Mais constância no Instagram</div>
+            </div>
+          </div>
+          <p class="review-text">"O app me ajudou a parar de postar só exercício solto. Comecei a explicar melhor meu acompanhamento."</p>
+        </div>
+        <div class="story-card">
+          <div class="review-head">
+            <img src="w4.jpg" alt="Priscila Nunes" loading="lazy" decoding="async" width="56" height="56">
+            <div>
+              <div class="review-name">Priscila Nunes</div>
+              <div class="highlight">Conteúdo pronto em minutos</div>
+            </div>
+          </div>
+          <p class="review-text">"Eu abro o app, pego uma ideia de Reel e já tenho gancho, legenda e CTA. Ficou muito mais fácil."</p>
+        </div>
+        <div class="story-card">
+          <div class="review-head">
+            <img src="m4.jpg" alt="Diego Ramos" loading="lazy" decoding="async" width="56" height="56">
+            <div>
+              <div class="review-name">Diego Ramos</div>
+              <div class="highlight">Mais clareza para vender</div>
+            </div>
+          </div>
+          <p class="review-text">"Os CTAs e provas sociais me ajudaram a chamar seguidores para o direct sem parecer forçado."</p>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="v">98%</div><div class="l">Satisfação</div></div>
+        <div class="metric"><div class="v"><span class="star">★</span>4.9</div><div class="l">Nota média</div></div>
+        <div class="metric"><div class="v">90+</div><div class="l">Conteúdos prontos</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-title">
+        <h2>Dúvidas Frequentes</h2>
+        <p>Respostas sobre o Agenda Cheia Personal</p>
+      </div>
+      <div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Preciso aparecer nos vídeos?</span><span class="toggle">−</span></button>
+          <div class="faq-a">Não necessariamente. Algumas ideias pedem fala para a câmera, mas outras podem ser gravadas com bastidores, texto na tela, rotina, academia ou prints autorizados.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Sou personal iniciante. Funciona para mim?</span><span class="toggle">+</span></button>
+          <div class="faq-a">Sim. O app foi pensado justamente para quem quer parecer mais profissional e postar com mais clareza, mesmo sem experiência com conteúdo.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Como recebo o acesso após a compra?</span><span class="toggle">+</span></button>
+          <div class="faq-a">Você recebe o link de acesso logo após a compra. O app funciona no navegador e também pode ser instalado no celular como PWA.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Qual a diferença entre Start e Premium?</span><span class="toggle">+</span></button>
+          <div class="faq-a">O Start libera 10 ideias de Reels. O Premium libera o app completo com 50 ideias de Reels, legendas, stories, CTAs, bios, calendário de 30 dias, provas sociais e dinâmicas de treino.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>O conteúdo é pronto para copiar?</span><span class="toggle">+</span></button>
+          <div class="faq-a">Sim. Você pode copiar, adaptar para o seu estilo e postar. O objetivo é acelerar sua produção.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Serve para personal que atende online?</span><span class="toggle">+</span></button>
+          <div class="faq-a">Sim. As ideias funcionam tanto para personal presencial quanto para consultoria online.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Tem garantia?</span><span class="toggle">+</span></button>
+          <div class="faq-a">Sim. Você tem 7 dias de garantia para testar.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>O app vende por mim?</span><span class="toggle">+</span></button>
+          <div class="faq-a">Não. O app entrega a estrutura, os ganchos, os roteiros, as legendas e os CTAs. Você ainda precisa postar e conversar com as pessoas no direct.</div>
+        </div>
+      </div>
+
+      <div style="margin-top:40px;">
+        <a href="#" data-cta="premium-checkout" class="cta cta-success">QUERO O APP COMPLETO — R$27</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div style="max-width:640px;margin:0 auto;">
+      <div class="brand">Agenda Cheia Personal</div>
+      <p>© 2026 Agenda Cheia Personal · Todos os direitos reservados</p>
+      <div class="links">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
